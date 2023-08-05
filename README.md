@@ -1,4 +1,4 @@
-# What What does this script do
+# What does this script do
 This a small script to fix error with IGS jobs compatibility for SUP gamemode
 
 # Installation
