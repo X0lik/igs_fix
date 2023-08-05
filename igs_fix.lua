@@ -1,6 +1,6 @@
 local gmTeams = {}
 hook.Add( "PostGamemodeLoaded", "IGS:JobFix", function()
-	if next( RPExtraTeams ) ~= nil then
+	if RPExtraTeams and next( RPExtraTeams ) ~= nil then
 		gmTeams = RPExtraTeams
 	elseif rp and rp.teams and next( rp.teams ) ~= nil then
 		gmTeams = rp.teams
